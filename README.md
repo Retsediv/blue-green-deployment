@@ -1,3 +1,1 @@
-# github-actions-samples
-
-This repo contains samples of Github Actions Workflows
+#  GitHub Actions CI/CD workflow to implement single-service blue/green deployment to Google cloud-hosted Kubernetes cluster
