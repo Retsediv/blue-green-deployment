@@ -9,7 +9,9 @@ spec:
           - path: /
             pathType: Prefix
             backend:
-              service:
-                name: hello-gitops
-                port: 
-                  number: 80
+              # service:
+              #   name: hello-gitops
+              #   port:
+              #     number: 80
+              serviceName: hello-gitops
+              servicePort: 80
