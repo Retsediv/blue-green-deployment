@@ -8,4 +8,4 @@ namespace: hello-gitops
 images:
 - name: hello-gitops
   newName: zhuravchak/hello-gitops
-  newTag: ac1fbe3fd61e333f9ff7ce64dc06b50c5c17f963
+  newTag: 6e1c01e62c822e68321333942983f1a27335522a
