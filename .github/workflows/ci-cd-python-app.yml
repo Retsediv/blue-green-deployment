@@ -159,6 +159,7 @@ jobs:
 
     - name: Commit files
       run: |
+        git pull
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -am "Bump docker tag"
@@ -167,6 +168,3 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        force_with_lease: true
-        branch: ${{ github.head_ref }}
-
